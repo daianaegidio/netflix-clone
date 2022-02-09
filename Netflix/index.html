@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Style/main.css" />
+    <!-- Links Arquivos CSS OWL-->
+    <link href="Style/owl/owl.carousel.min.css" rel="stylesheet" />
+    <link href="Style/owl/owl.theme.default.min.css" rel="stylesheet" />
+    <!-- Responsividade-->
+    <link href="Style/responsive.css" rel="stylesheet" />
+    <title>Netflix Clone</title>
+</head>
+<body>
+    
+    <header>
+
+        <div class="container">
+
+            <h2 class="logo"> NETFLIX </h2>
+            <nav class="menu">
+                <a href="#"> Inicio</a>
+                <a href="#alta"> Em Alta</a>
+                <a href="#filme"> Filmes</a>
+                <a href="https://www.netflix.com/br/" target="_blank"> Login</a>
+
+            </nav>
+        </div>
+
+    </header>
+
+ <main>
+
+     <div class="filme-principal">
+         <div>
+             <h3 class="titulo"> ATRAVÉS DA MINHA JANELA</h3>
+             <p class="descricao">Raquel é louca pelo vizinho Ares há muito tempo. Ela o observa de longe, mas nunca falou com ele. Será que vai dar match? </br>
+
+                 <div class="botoes">
+                     <button role="button" class="botao" onclick="video()"> <i class="fas fa-play"></i> ASSITIR AGORA</button>
+                     <button role="button" class="botao" onclick="myFunction()"> <i class="fas fa-info-circle"></i> MAIS INFORMAÇÕES</button>
+                     <div class="popup" onclick="myFunction()">
+
+                         <span class="popuptext" id="myPopup" >
+                             <i class="far fa-times-circle"></i>
+                             
+            
+                Na Espanha, a adolescente Raquel (Clara Galle) está apaixonada por Ares (Julio Peña), seu vizinho misterioso. Agora a sua missão é fazer esse amor platônico se tornar realidade.
+
+                 Quando Ares finalmente corresponde os sentimentos, a sua família se manifesta contra um possível relacionamento. Será que essa garota ousada e esse jovem enigmático conseguirão viver um romance?
+             
+
+                         </span>
+                     </div>
+
+                     <div class="popup" onclick="video()">
+
+                         <span class="popupvideo" id="vid">
+                             <i class="fas fa-times-circle"></i>
+
+
+                             <iframe width="560" height="315" src="https://www.youtube.com/embed/yE59pAygBLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                         </span>
+                     </div>
+                 </div>
+
+         </div>
+
+     </div>
+ </main>
+ 
+    
+
+    <div class="topo" id="alta"> Em Alta</div>
+    <div class="carrosel-alta">
+
+        <div class="owl-carousel owl-theme">
+            <div class="item"> <a href="https://www.youtube.com/watch?v=Y1si6GmjXKc" target="_blank">  <img class="box-filme" src="img/mini1.jpg" alt="" srcset="" /></a>  </div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=rCj-Fb1OmXg" target="_blank"> <img class="box-filme" src="img/mini2.jpg" alt="" srcset="" /></a> </div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=vx5zQGnf7QI" target="_blank"> <img class="box-filme" src="img/mini3.jpg" alt="" srcset="" /></a></div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=smAIFPnBvRg" target="_blank"> <img class="box-filme" src="img/mini4.jpg" alt="" srcset="" /></a></div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=6k2rvC9CPiA" target="_blank"> <img class="box-filme" src="img/mini5.jpg" alt="" srcset="" /> </a></div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=ItU1BwRqD4I" target="_blank"> <img class="box-filme" src="img/mini6.jpg" alt="" srcset="" /> </a></div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=r6zx-7qITxU" target="_blank"><img class="box-filme" src="img/mini7.jpg" alt="" srcset="" /> </a></div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=ve5aUbb7gA8" target="_blank"> <img class="box-filme" src="img/mini8.jpg" alt="" srcset="" /> </a></div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=GDnfUkmr57k" target="_blank"> <img class="box-filme" src="img/mini9.jpg" alt="" srcset="" /></a></div>
+            <div class="item"><a href="https://www.youtube.com/watch?v=PGXJT61Y6Mc" target="_blank"> <img class="box-filme" src="img/mini10.jpg" alt="" srcset="" /></a></div>
+        </div>
+        </div>
+
+    <div class="topo" id="filme"> Filmes</div>
+    <div class="carrosel-alta">
+
+        <div class="owl-carousel owl-theme">
+            <div class="item"> <a href="https://www.youtube.com/watch?v=kFCvoTe7huk" target="_blank"> <img class="box-filme" src="img/filme/filme1.jpg" alt="" srcset=""  /> </a> </div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=cmqZBUzxo4A" target="_blank"> <img class="box-filme" src="img/filme/filme2.jpg" alt="" srcset="" /> </a> </div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=CK-g0OqzQHQ" target="_blank"><img class="box-filme" src="img/filme/filme3.jpg" alt="" srcset="" /></a> </div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=-wQyssgiDh4" target="_blank"><img class="box-filme" src="img/filme/filme4.jpg" alt="" srcset="" /> </a> </div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=_LxaB9Wyloo" target="_blank"><img class="box-filme" src="img/filme/filme5.jpg" alt="" srcset="" /> </a> </div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=462RosJNAMw" target="_blank"> <img class="box-filme" src="img/filme/filmes6.jpg" alt="" srcset="" /></a> </div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=HrST-4WLlbA" target="_blank"> <img class="box-filme" src="img/filme/filme7.jpg" alt="" srcset="" /> </a></div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=M2LMRXkAZSY" target="_blank"> <img class="box-filme" src="img/filme/filme8.jpg" alt="" srcset="" /> </a> </div>
+            <div class="item"> <a href="https://www.youtube.com/watch?v=ahyY0rGfCD4" target="_blank"><img class="box-filme" src="img/filme/filme9.jpg" alt="" srcset="" /> </a> </div>
+            <div class="item"><a href="https://www.youtube.com/watch?v=tlQpJAcNzJg" target="_blank"><img class="box-filme" src="img/filme/filme10.jpg" alt="" srcset="" /> </a></div>
+
+            
+
+       
+
+    </div>
+
+   
+   
+
+
+    <script src="js/personalizado.js"></script>
+    <script src="https://kit.fontawesome.com/c53b374256.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+</body>
+</html>

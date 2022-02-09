@@ -1,0 +1,9 @@
+c:\users\windows\documents\visual studio 2013\Projects\Netflix\Netflix\bin\Netflix.dll.config
+c:\users\windows\documents\visual studio 2013\Projects\Netflix\Netflix\bin\Netflix.dll
+c:\users\windows\documents\visual studio 2013\Projects\Netflix\Netflix\bin\Netflix.pdb
+c:\users\windows\documents\visual studio 2013\Projects\Netflix\Netflix\bin\Netflix.xml
+c:\users\windows\documents\visual studio 2013\Projects\Netflix\Netflix\obj\Debug\Netflix.Resources.resources
+c:\users\windows\documents\visual studio 2013\Projects\Netflix\Netflix\obj\Debug\Netflix.vbproj.GenerateResource.Cache
+c:\users\windows\documents\visual studio 2013\Projects\Netflix\Netflix\obj\Debug\Netflix.dll
+c:\users\windows\documents\visual studio 2013\Projects\Netflix\Netflix\obj\Debug\Netflix.xml
+c:\users\windows\documents\visual studio 2013\Projects\Netflix\Netflix\obj\Debug\Netflix.pdb
